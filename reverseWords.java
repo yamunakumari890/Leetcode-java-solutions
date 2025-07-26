@@ -7,7 +7,7 @@
 
 package Strings;
 
-class Solution {
+class ReverseWords {
     public String reverseWords(String s) {
      String[] words = s.trim().split("\\s+") ;
      StringBuilder reversed = new StringBuilder();
@@ -20,7 +20,7 @@ class Solution {
      return reversed.toString();
     }
     public static void main(String[] args) {
-      Solution sol = new Solution();
+      ReverseWords sol = new ReverseWords();
         System.out.println(sol.reverseWords("  girls beautifull is a yamuna "));
     }
 }
