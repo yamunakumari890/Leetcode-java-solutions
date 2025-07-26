@@ -21,6 +21,6 @@ class ReverseWords {
     }
     public static void main(String[] args) {
       ReverseWords sol = new ReverseWords();
-        System.out.println(sol.reverseWords("  girls beautifull is a yamuna "));
+        System.out.println(sol.reverseWords("  girls beautifull a is yamuna "));
     }
 }
